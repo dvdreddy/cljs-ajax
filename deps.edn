@@ -1,6 +1,5 @@
 {:paths ["src/ajax"]
- :deps {org.clojure/clojure {:mvn/version "1.4.0"}
-        cheshire {:mvn/version "5.10.0"}
+ :deps {cheshire {:mvn/version "5.10.0"}
         com.cognitect/transit-clj {:mvn/version "1.0.324"}
         com.cognitect/transit-cljs {:mvn/version "0.8.264"}
         org.apache.httpcomponents/httpasyncclient {:mvn/version "4.1.4"}
