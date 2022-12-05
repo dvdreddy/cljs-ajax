@@ -29,10 +29,7 @@
 (def xmlhttprequest
   (cond
     (exists? goog/global.XMLHttpRequest)
-    goog/global.XMLHttpRequest
-    (exists? js/require)
-    (let [req js/require]
-      (.-XMLHttpRequest (req "xmlhttprequest")))))
+    goog/global.XMLHttpRequest))
 
 (extend-type xmlhttprequest
   AjaxImpl
